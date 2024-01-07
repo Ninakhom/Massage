@@ -22,6 +22,11 @@ WindowsApp1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:WindowsApp1.My.Resources.Resources.icons8_menu_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:WindowsApp1.My.Resources.Resources.Screenshot_2023_12_03_165728">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

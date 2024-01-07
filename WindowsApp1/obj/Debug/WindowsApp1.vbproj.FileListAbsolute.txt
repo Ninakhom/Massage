@@ -47,3 +47,4 @@ D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
 D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.exe
 D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
 D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
+D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Main.resources
