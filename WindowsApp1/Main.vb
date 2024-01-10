@@ -6,8 +6,11 @@
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         emsidebar.Height = 0
         billsidebar.Height = 0
-    End Sub
 
+    End Sub
+    Public Sub SetUsername(username As String)
+        Label1.Text = username
+    End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 
 
@@ -83,7 +86,13 @@
     End Sub
 
     Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
-        switchPanel(Employee)
+        Dim employeeForm As New Employee
+
+        ' Call a method or set a property in the Employee form to send data
+        employeeForm.SetEmployeeName(Label1.Text)
+
+        ' Switch to the Employee form
+        switchPanel(employeeForm)
     End Sub
 
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click

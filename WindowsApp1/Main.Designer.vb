@@ -45,10 +45,12 @@ Partial Class Main
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.leftside.SuspendLayout()
         Me.billsidebar.SuspendLayout()
         Me.emsidebar.SuspendLayout()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'leftside
@@ -373,6 +375,7 @@ Partial Class Main
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Panel1.FillColor3 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
@@ -380,6 +383,17 @@ Partial Class Main
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1031, 681)
         Me.Panel1.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(907, 22)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(67, 23)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Label1"
         '
         'Main
         '
@@ -394,6 +408,8 @@ Partial Class Main
         Me.billsidebar.ResumeLayout(False)
         Me.emsidebar.ResumeLayout(False)
         Me.Guna2CustomGradientPanel1.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -420,4 +436,5 @@ Partial Class Main
     Friend WithEvents Guna2Button11 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button10 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Panel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
+    Friend WithEvents Label1 As Label
 End Class

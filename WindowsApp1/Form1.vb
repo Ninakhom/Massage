@@ -2,7 +2,7 @@
 Public Class Form1
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         ConnectDatabase()
-        cmd = New MySqlCommand("select * from staff where username=@username and userpassword=@password", conn)
+        cmd = New MySqlCommand("select * from users where username=@username and password=@password", conn)
         cmd.Parameters.AddWithValue("@username", txtUname.Text)
         cmd.Parameters.AddWithValue("@password", txtpwd.Text)
         dr = cmd.ExecuteReader()
@@ -10,9 +10,18 @@ Public Class Form1
         If (dr.HasRows) Then
             ' Successful login
             MessageBox.Show("OK")
+
+            ' Create an instance of the Main form
             Dim frm As New Main
+
+            ' Set the username in the Main form
+            frm.SetUsername(txtUname.Text)
+
+            ' Show the Main form
             frm.Show()
-            Me.Close()
+
+
+            Me.Hide()
         Else
             ' Invalid credentials
             MessageBox.Show("ຊື່ແລະລະຫັດບໍ່ຖືກຕ້ອງ")

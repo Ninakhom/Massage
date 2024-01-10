@@ -2,7 +2,9 @@
 
 Public Class Employee
 
-
+    Public Sub SetEmployeeName(name As String)
+        Label5.Text = name
+    End Sub
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         ' Validation: Check if Name, Phone, ComboBox, and at least one CheckBox are not empty or unselected
         If String.IsNullOrWhiteSpace(Guna2TextBox1.Text) Then
