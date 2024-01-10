@@ -81,4 +81,20 @@
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
         switchPanel(Home)
     End Sub
+
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
+        switchPanel(Employee)
+    End Sub
+
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+        switchPanel(list)
+    End Sub
+
+    Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
+        switchPanel(Edit)
+    End Sub
+
+    Private Sub Guna2Button8_Click(sender As Object, e As EventArgs) Handles Guna2Button8.Click
+        switchPanel(Delete)
+    End Sub
 End Class

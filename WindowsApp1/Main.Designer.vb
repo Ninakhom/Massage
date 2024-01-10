@@ -40,11 +40,11 @@ Partial Class Main
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.leftside.SuspendLayout()
         Me.billsidebar.SuspendLayout()
         Me.emsidebar.SuspendLayout()
@@ -342,6 +342,23 @@ Partial Class Main
         Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(240, 45)
         Me.Guna2CustomGradientPanel1.TabIndex = 0
         '
+        'Guna2Button1
+        '
+        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button1.Image = Global.WindowsApp1.My.Resources.Resources.icons8_menu_50
+        Me.Guna2Button1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.Size = New System.Drawing.Size(61, 45)
+        Me.Guna2Button1.TabIndex = 0
+        '
         'Timer1
         '
         Me.Timer1.Interval = 10
@@ -363,23 +380,6 @@ Partial Class Main
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1031, 681)
         Me.Panel1.TabIndex = 1
-        '
-        'Guna2Button1
-        '
-        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Image = Global.WindowsApp1.My.Resources.Resources.icons8_menu_50
-        Me.Guna2Button1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(61, 45)
-        Me.Guna2Button1.TabIndex = 0
         '
         'Main
         '

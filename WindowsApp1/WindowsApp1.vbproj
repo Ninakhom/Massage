@@ -136,6 +136,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delete.Designer.vb">
+      <DependentUpon>Delete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit.Designer.vb">
+      <DependentUpon>Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.vb">
+      <DependentUpon>Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +165,12 @@
       <DependentUpon>Home.vb</DependentUpon>
     </Compile>
     <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="list.Designer.vb">
+      <DependentUpon>list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="list.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.vb">
@@ -174,11 +198,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit.resx">
+      <DependentUpon>Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="list.resx">
+      <DependentUpon>list.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>

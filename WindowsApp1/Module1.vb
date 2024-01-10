@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 Module Module1
-    Public strcon As String = "server=localhost; user=root; password=; database=mas; CharSet=utf8;"
+    Public strcon As String = "server=localhost; user=root; password=; database=massage; CharSet=utf8;"
     Public conn As New MySqlConnection
     Public da As New MySqlDataAdapter
     Public ds As New DataSet
