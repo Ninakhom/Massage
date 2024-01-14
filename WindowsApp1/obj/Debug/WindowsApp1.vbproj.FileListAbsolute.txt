@@ -104,3 +104,7 @@ D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Employee.resources
 D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.list.resources
 D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Edit.resources
 D:\vb.net pro\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Delete.resources
+C:\Users\LEGION 5 Pro\Source\Repos\Massage\WindowsApp1\obj\Debug\WindowsApp1.Delete.resources
+C:\Users\LEGION 5 Pro\Source\Repos\Massage\WindowsApp1\obj\Debug\WindowsApp1.Edit.resources
+C:\Users\LEGION 5 Pro\Source\Repos\Massage\WindowsApp1\obj\Debug\WindowsApp1.Employee.resources
+C:\Users\LEGION 5 Pro\Source\Repos\Massage\WindowsApp1\obj\Debug\WindowsApp1.list.resources
