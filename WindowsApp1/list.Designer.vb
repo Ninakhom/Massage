@@ -26,6 +26,13 @@ Partial Class list
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Me.Guna2CheckBox7 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox6 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox5 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox4 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox3 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox2 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox1 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -34,13 +41,6 @@ Partial Class list
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
-        Me.Guna2CheckBox7 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox6 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox5 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox4 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox3 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox2 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox1 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
         CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -62,13 +62,155 @@ Partial Class list
         Me.Guna2CustomGradientPanel1.Controls.Add(Me.Guna2TextBox1)
         Me.Guna2CustomGradientPanel1.Controls.Add(Me.Label1)
         Me.Guna2CustomGradientPanel1.Controls.Add(Me.Guna2DataGridView1)
+        Me.Guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(-54, -28)
+        Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(0, 0)
         Me.Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
-        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(1201, 684)
+        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(930, 1080)
         Me.Guna2CustomGradientPanel1.TabIndex = 2
+        '
+        'Guna2CheckBox7
+        '
+        Me.Guna2CheckBox7.AutoSize = True
+        Me.Guna2CheckBox7.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox7.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox7.CheckedState.BorderRadius = 0
+        Me.Guna2CheckBox7.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox7.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox7.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CheckBox7.Location = New System.Drawing.Point(261, 254)
+        Me.Guna2CheckBox7.Name = "Guna2CheckBox7"
+        Me.Guna2CheckBox7.Size = New System.Drawing.Size(88, 23)
+        Me.Guna2CheckBox7.TabIndex = 26
+        Me.Guna2CheckBox7.Text = "Saturday"
+        Me.Guna2CheckBox7.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox7.UncheckedState.BorderRadius = 0
+        Me.Guna2CheckBox7.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox7.UncheckedState.FillColor = System.Drawing.Color.White
+        Me.Guna2CheckBox7.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox6
+        '
+        Me.Guna2CheckBox6.AutoSize = True
+        Me.Guna2CheckBox6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox6.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox6.CheckedState.BorderRadius = 0
+        Me.Guna2CheckBox6.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox6.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox6.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CheckBox6.Location = New System.Drawing.Point(261, 225)
+        Me.Guna2CheckBox6.Name = "Guna2CheckBox6"
+        Me.Guna2CheckBox6.Size = New System.Drawing.Size(71, 23)
+        Me.Guna2CheckBox6.TabIndex = 25
+        Me.Guna2CheckBox6.Text = "Friday"
+        Me.Guna2CheckBox6.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox6.UncheckedState.BorderRadius = 0
+        Me.Guna2CheckBox6.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox6.UncheckedState.FillColor = System.Drawing.Color.White
+        Me.Guna2CheckBox6.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox5
+        '
+        Me.Guna2CheckBox5.AutoSize = True
+        Me.Guna2CheckBox5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox5.CheckedState.BorderRadius = 0
+        Me.Guna2CheckBox5.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox5.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CheckBox5.Location = New System.Drawing.Point(261, 196)
+        Me.Guna2CheckBox5.Name = "Guna2CheckBox5"
+        Me.Guna2CheckBox5.Size = New System.Drawing.Size(91, 23)
+        Me.Guna2CheckBox5.TabIndex = 24
+        Me.Guna2CheckBox5.Text = "Thursday"
+        Me.Guna2CheckBox5.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox5.UncheckedState.BorderRadius = 0
+        Me.Guna2CheckBox5.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox5.UncheckedState.FillColor = System.Drawing.Color.White
+        Me.Guna2CheckBox5.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox4
+        '
+        Me.Guna2CheckBox4.AutoSize = True
+        Me.Guna2CheckBox4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox4.CheckedState.BorderRadius = 0
+        Me.Guna2CheckBox4.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CheckBox4.Location = New System.Drawing.Point(107, 283)
+        Me.Guna2CheckBox4.Name = "Guna2CheckBox4"
+        Me.Guna2CheckBox4.Size = New System.Drawing.Size(105, 23)
+        Me.Guna2CheckBox4.TabIndex = 23
+        Me.Guna2CheckBox4.Text = "Wednesday"
+        Me.Guna2CheckBox4.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox4.UncheckedState.BorderRadius = 0
+        Me.Guna2CheckBox4.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox4.UncheckedState.FillColor = System.Drawing.Color.White
+        Me.Guna2CheckBox4.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox3
+        '
+        Me.Guna2CheckBox3.AutoSize = True
+        Me.Guna2CheckBox3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox3.CheckedState.BorderRadius = 0
+        Me.Guna2CheckBox3.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CheckBox3.Location = New System.Drawing.Point(107, 254)
+        Me.Guna2CheckBox3.Name = "Guna2CheckBox3"
+        Me.Guna2CheckBox3.Size = New System.Drawing.Size(84, 23)
+        Me.Guna2CheckBox3.TabIndex = 22
+        Me.Guna2CheckBox3.Text = "Tuesday"
+        Me.Guna2CheckBox3.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox3.UncheckedState.BorderRadius = 0
+        Me.Guna2CheckBox3.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.White
+        Me.Guna2CheckBox3.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox2
+        '
+        Me.Guna2CheckBox2.AutoSize = True
+        Me.Guna2CheckBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox2.CheckedState.BorderRadius = 0
+        Me.Guna2CheckBox2.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox2.CheckMarkColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2CheckBox2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CheckBox2.Location = New System.Drawing.Point(107, 225)
+        Me.Guna2CheckBox2.Name = "Guna2CheckBox2"
+        Me.Guna2CheckBox2.Size = New System.Drawing.Size(84, 23)
+        Me.Guna2CheckBox2.TabIndex = 21
+        Me.Guna2CheckBox2.Text = "Monday"
+        Me.Guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox2.UncheckedState.BorderRadius = 0
+        Me.Guna2CheckBox2.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.White
+        Me.Guna2CheckBox2.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox1
+        '
+        Me.Guna2CheckBox1.AutoSize = True
+        Me.Guna2CheckBox1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox1.CheckedState.BorderRadius = 0
+        Me.Guna2CheckBox1.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CheckBox1.Location = New System.Drawing.Point(107, 196)
+        Me.Guna2CheckBox1.Name = "Guna2CheckBox1"
+        Me.Guna2CheckBox1.Size = New System.Drawing.Size(77, 23)
+        Me.Guna2CheckBox1.TabIndex = 20
+        Me.Guna2CheckBox1.Text = "Sunday"
+        Me.Guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox1.UncheckedState.BorderRadius = 0
+        Me.Guna2CheckBox1.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.White
+        Me.Guna2CheckBox1.UseVisualStyleBackColor = False
         '
         'Guna2ComboBox1
         '
@@ -81,7 +223,7 @@ Partial Class list
         Me.Guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.Guna2ComboBox1.ItemHeight = 30
         Me.Guna2ComboBox1.Items.AddRange(New Object() {"9:00 AM - 12:00 PM", "1:00 PM - 4:00 PM", "5:00 PM - 9:00 PM"})
-        Me.Guna2ComboBox1.Location = New System.Drawing.Point(211, 110)
+        Me.Guna2ComboBox1.Location = New System.Drawing.Point(75, 122)
         Me.Guna2ComboBox1.Name = "Guna2ComboBox1"
         Me.Guna2ComboBox1.Size = New System.Drawing.Size(221, 36)
         Me.Guna2ComboBox1.TabIndex = 18
@@ -91,7 +233,7 @@ Partial Class list
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(730, 124)
+        Me.Label4.Location = New System.Drawing.Point(599, 89)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(50, 19)
         Me.Label4.TabIndex = 17
@@ -108,13 +250,13 @@ Partial Class list
         Me.Guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox3.Location = New System.Drawing.Point(787, 110)
+        Me.Guna2TextBox3.Location = New System.Drawing.Point(603, 122)
         Me.Guna2TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2TextBox3.Name = "Guna2TextBox3"
         Me.Guna2TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.Guna2TextBox3.PlaceholderText = ""
         Me.Guna2TextBox3.SelectedText = ""
-        Me.Guna2TextBox3.Size = New System.Drawing.Size(275, 34)
+        Me.Guna2TextBox3.Size = New System.Drawing.Size(265, 36)
         Me.Guna2TextBox3.TabIndex = 16
         '
         'Label3
@@ -122,7 +264,7 @@ Partial Class list
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(451, 124)
+        Me.Label3.Location = New System.Drawing.Point(347, 89)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(49, 19)
         Me.Label3.TabIndex = 15
@@ -133,7 +275,7 @@ Partial Class list
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(151, 124)
+        Me.Label2.Location = New System.Drawing.Point(71, 89)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(43, 19)
         Me.Label2.TabIndex = 14
@@ -150,13 +292,13 @@ Partial Class list
         Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(517, 110)
+        Me.Guna2TextBox1.Location = New System.Drawing.Point(351, 122)
         Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2TextBox1.Name = "Guna2TextBox1"
         Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.Guna2TextBox1.PlaceholderText = ""
         Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(192, 33)
+        Me.Guna2TextBox1.Size = New System.Drawing.Size(192, 36)
         Me.Guna2TextBox1.TabIndex = 13
         '
         'Label1
@@ -164,7 +306,7 @@ Partial Class list
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(149, 50)
+        Me.Label1.Location = New System.Drawing.Point(36, 37)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(105, 19)
         Me.Label1.TabIndex = 2
@@ -195,11 +337,11 @@ Partial Class list
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
         Me.Guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView1.Location = New System.Drawing.Point(153, 185)
+        Me.Guna2DataGridView1.Location = New System.Drawing.Point(107, 332)
         Me.Guna2DataGridView1.Name = "Guna2DataGridView1"
         Me.Guna2DataGridView1.ReadOnly = True
         Me.Guna2DataGridView1.RowHeadersVisible = False
-        Me.Guna2DataGridView1.Size = New System.Drawing.Size(715, 348)
+        Me.Guna2DataGridView1.Size = New System.Drawing.Size(715, 629)
         Me.Guna2DataGridView1.TabIndex = 0
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -223,152 +365,11 @@ Partial Class list
         Me.Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
-        'Guna2CheckBox7
-        '
-        Me.Guna2CheckBox7.AutoSize = True
-        Me.Guna2CheckBox7.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox7.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox7.CheckedState.BorderRadius = 0
-        Me.Guna2CheckBox7.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox7.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox7.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2CheckBox7.Location = New System.Drawing.Point(965, 449)
-        Me.Guna2CheckBox7.Name = "Guna2CheckBox7"
-        Me.Guna2CheckBox7.Size = New System.Drawing.Size(88, 23)
-        Me.Guna2CheckBox7.TabIndex = 26
-        Me.Guna2CheckBox7.Text = "Saturday"
-        Me.Guna2CheckBox7.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox7.UncheckedState.BorderRadius = 0
-        Me.Guna2CheckBox7.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox7.UncheckedState.FillColor = System.Drawing.Color.White
-        Me.Guna2CheckBox7.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox6
-        '
-        Me.Guna2CheckBox6.AutoSize = True
-        Me.Guna2CheckBox6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox6.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox6.CheckedState.BorderRadius = 0
-        Me.Guna2CheckBox6.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox6.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox6.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2CheckBox6.Location = New System.Drawing.Point(965, 405)
-        Me.Guna2CheckBox6.Name = "Guna2CheckBox6"
-        Me.Guna2CheckBox6.Size = New System.Drawing.Size(71, 23)
-        Me.Guna2CheckBox6.TabIndex = 25
-        Me.Guna2CheckBox6.Text = "Friday"
-        Me.Guna2CheckBox6.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox6.UncheckedState.BorderRadius = 0
-        Me.Guna2CheckBox6.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox6.UncheckedState.FillColor = System.Drawing.Color.White
-        Me.Guna2CheckBox6.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox5
-        '
-        Me.Guna2CheckBox5.AutoSize = True
-        Me.Guna2CheckBox5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox5.CheckedState.BorderRadius = 0
-        Me.Guna2CheckBox5.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox5.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2CheckBox5.Location = New System.Drawing.Point(965, 360)
-        Me.Guna2CheckBox5.Name = "Guna2CheckBox5"
-        Me.Guna2CheckBox5.Size = New System.Drawing.Size(91, 23)
-        Me.Guna2CheckBox5.TabIndex = 24
-        Me.Guna2CheckBox5.Text = "Thursday"
-        Me.Guna2CheckBox5.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox5.UncheckedState.BorderRadius = 0
-        Me.Guna2CheckBox5.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox5.UncheckedState.FillColor = System.Drawing.Color.White
-        Me.Guna2CheckBox5.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox4
-        '
-        Me.Guna2CheckBox4.AutoSize = True
-        Me.Guna2CheckBox4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox4.CheckedState.BorderRadius = 0
-        Me.Guna2CheckBox4.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2CheckBox4.Location = New System.Drawing.Point(965, 316)
-        Me.Guna2CheckBox4.Name = "Guna2CheckBox4"
-        Me.Guna2CheckBox4.Size = New System.Drawing.Size(105, 23)
-        Me.Guna2CheckBox4.TabIndex = 23
-        Me.Guna2CheckBox4.Text = "Wednesday"
-        Me.Guna2CheckBox4.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox4.UncheckedState.BorderRadius = 0
-        Me.Guna2CheckBox4.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox4.UncheckedState.FillColor = System.Drawing.Color.White
-        Me.Guna2CheckBox4.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox3
-        '
-        Me.Guna2CheckBox3.AutoSize = True
-        Me.Guna2CheckBox3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox3.CheckedState.BorderRadius = 0
-        Me.Guna2CheckBox3.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2CheckBox3.Location = New System.Drawing.Point(965, 274)
-        Me.Guna2CheckBox3.Name = "Guna2CheckBox3"
-        Me.Guna2CheckBox3.Size = New System.Drawing.Size(84, 23)
-        Me.Guna2CheckBox3.TabIndex = 22
-        Me.Guna2CheckBox3.Text = "Tuesday"
-        Me.Guna2CheckBox3.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox3.UncheckedState.BorderRadius = 0
-        Me.Guna2CheckBox3.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.White
-        Me.Guna2CheckBox3.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox2
-        '
-        Me.Guna2CheckBox2.AutoSize = True
-        Me.Guna2CheckBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox2.CheckedState.BorderRadius = 0
-        Me.Guna2CheckBox2.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox2.CheckMarkColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2CheckBox2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2CheckBox2.Location = New System.Drawing.Point(965, 229)
-        Me.Guna2CheckBox2.Name = "Guna2CheckBox2"
-        Me.Guna2CheckBox2.Size = New System.Drawing.Size(84, 23)
-        Me.Guna2CheckBox2.TabIndex = 21
-        Me.Guna2CheckBox2.Text = "Monday"
-        Me.Guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox2.UncheckedState.BorderRadius = 0
-        Me.Guna2CheckBox2.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.White
-        Me.Guna2CheckBox2.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox1
-        '
-        Me.Guna2CheckBox1.AutoSize = True
-        Me.Guna2CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox1.CheckedState.BorderRadius = 0
-        Me.Guna2CheckBox1.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2CheckBox1.Location = New System.Drawing.Point(967, 185)
-        Me.Guna2CheckBox1.Name = "Guna2CheckBox1"
-        Me.Guna2CheckBox1.Size = New System.Drawing.Size(77, 23)
-        Me.Guna2CheckBox1.TabIndex = 20
-        Me.Guna2CheckBox1.Text = "Sunday"
-        Me.Guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox1.UncheckedState.BorderRadius = 0
-        Me.Guna2CheckBox1.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.White
-        Me.Guna2CheckBox1.UseVisualStyleBackColor = False
-        '
         'list
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1100, 630)
+        Me.ClientSize = New System.Drawing.Size(930, 1080)
         Me.Controls.Add(Me.Guna2CustomGradientPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "list"
